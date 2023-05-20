@@ -8,7 +8,7 @@ function App() {
 
 	return (
 		<>
-			<div className='h-[100vh] snap-mandatory snap-y scroll-smooth overflow-y-auto no-scrollbar'>
+			<div className="h-[100vh] snap-mandatory snap-y scroll-smooth overflow-y-auto no-scrollbar text-white bg-[url('./assets/bg.jpeg')]">
 				<Hero />
 				<Who />
 				<Works />
