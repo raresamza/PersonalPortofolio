@@ -10,10 +10,10 @@ const Navbar = () => {
                     <div className='flex items-center gap-12'>
                         <img className='h-12' src={reactsvg}></img>
                         <ul className='flex gap-5 list-none cursor-pointer'>
-                            <li>Home</li>
-                            <li>Contact</li>
-                            <li>Works</li>
-                            <li>Who</li>
+                            <li ><a href="#home">Home</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="#works">Works</a></li>
+                            <li><a href="#who">Who</a></li>
                         </ul>
                     </div>
                     <div className='flex justify-center items-center gap-5'>
