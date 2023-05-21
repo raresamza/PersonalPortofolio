@@ -21,6 +21,9 @@
   .font-outline-1 {
     -webkit-text-stroke: 1px white;
   }
+  .font-outline-0 {
+    -webkit-text-stroke: 0px white;
+  }
   .font-outline-4 {
     -webkit-text-stroke: 4px black;
   }

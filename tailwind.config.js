@@ -27,7 +27,9 @@ export default {
         wiggle: 'wiggle 3s ease-in-out infinite',
         moveText: ' moveText 1s linear both'
       },
-
+      screens: {
+        '-md': { max: '768px' }
+      }
     },
   },
   plugins: [require('tailwindcss-text-fill-stroke'),],
