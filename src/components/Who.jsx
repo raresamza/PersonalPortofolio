@@ -1,4 +1,3 @@
-import React from 'react'
 import line from '../assets/line.png'
 import { Canvas } from '@react-three/fiber'
 import { OrbitControls } from '@react-three/drei'

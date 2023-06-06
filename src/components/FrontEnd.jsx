@@ -7,7 +7,7 @@ const FrontEnd = () => {
     return (
         <>
             <Canvas>
-                <Stage environment="city" intensity={0}>
+                <Stage intensity={0}>
                     <ReactLogo />
                 </Stage>
                 <OrbitControls enableZoom={false} />

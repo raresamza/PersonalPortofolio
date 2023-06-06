@@ -7,7 +7,6 @@ Source: https://sketchfab.com/3d-models/chair-b5ecdb6253a7454c916954bef6c10251
 Title: Chair
 */
 
-import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export default function Model(props) {
