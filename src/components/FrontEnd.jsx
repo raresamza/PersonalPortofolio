@@ -2,13 +2,13 @@ import React from 'react'
 import { OrbitControls, Stage } from '@react-three/drei'
 import { Canvas } from '@react-three/fiber'
 import ReactLogo from './ReactLogo'
-import city from '../../public/postdamer_platz_1k.hdr'
+
 
 const FrontEnd = () => {
     return (
         <>
             <Canvas>
-                <Stage environment={city} intensity={0}>
+                <Stage environment="../../public/potsdamer_platz_1k.hdr" intensity={0}>
                     <ReactLogo />
                 </Stage>
                 <OrbitControls enableZoom={false} />
