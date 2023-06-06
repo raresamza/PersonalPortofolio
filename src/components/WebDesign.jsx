@@ -8,7 +8,7 @@ const WebDesign = () => {
     return (
         <>
             <Canvas>
-                <Stage environment="../../public/potsdamer_platz_1k.hdr" intensity={0.6}>
+                <Stage environment="https://github.com/raresamza/PersonalPortofolio/blob/71a4b5b9281b797a1e279c77f330986cc2a47d53/public/potsdamer_platz_1k.hdr" intensity={0.6}>
                     <Web />
                 </Stage>
                 <OrbitControls enableZoom={false} />
