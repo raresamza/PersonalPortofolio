@@ -6,7 +6,7 @@ const BackEnd = () => {
     return (
         <>
             <Canvas>
-                <Stage environment="city" intensity={-3}>
+                <Stage environment="../../public/potsdamer_platz_1k.hdr" intensity={-3}>
                     <Java />
 
                 </Stage>

@@ -1,12 +1,14 @@
 import { OrbitControls, Stage } from '@react-three/drei'
 import { Canvas } from '@react-three/fiber'
 import Web from './Web'
+import city from '../../public/postdamer_platz_1k.hdr'
+
 
 const WebDesign = () => {
     return (
         <>
             <Canvas>
-                <Stage environment="city" intensity={0.6}>
+                <Stage environment={city} intensity={0.6}>
                     <Web />
                 </Stage>
                 <OrbitControls enableZoom={false} />
