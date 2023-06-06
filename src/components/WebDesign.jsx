@@ -8,7 +8,7 @@ const WebDesign = () => {
     return (
         <>
             <Canvas>
-                <Stage environment="sunset" intensity={0.6}>
+                <Stage intensity={0.6}>
                     <Web />
                 </Stage>
                 <OrbitControls enableZoom={false} />

@@ -2,11 +2,13 @@ import { OrbitControls, Stage } from '@react-three/drei'
 import { Canvas } from '@react-three/fiber'
 import Java from './Java'
 
+
+
 const BackEnd = () => {
     return (
         <>
             <Canvas>
-                <Stage environment="/venice_sunset_1k.hdr" intensity={-3}>
+                <Stage intensity={-3}>
                     <Java />
 
                 </Stage>
